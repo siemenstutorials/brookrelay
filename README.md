@@ -24,7 +24,7 @@ docker run -itd -e DIP="192.168.1.222" -e DPORT="22" -p 2293:9999 brook-relay
 
 ## Docker hub
 
-如果不想自行构建镜像的同学，也可以直接运行xiaoz已经构建好的镜像，命令为：
+如果不想自行构建镜像的同学，也可以直接运行smt已经构建好的镜像，命令为：
 
 ```
 docker run -itd -e DIP="192.168.1.222" -e DPORT="22" -p 2293:9999 v2raysrgo/brookrelay
